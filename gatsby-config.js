@@ -14,5 +14,6 @@ module.exports = {
         path: `${__dirname}/src/roam`,
       }
     },
+    "gatsby-plugin-mdx",
   ],
 };
