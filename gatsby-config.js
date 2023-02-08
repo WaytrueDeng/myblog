@@ -6,5 +6,13 @@ module.exports = {
     title: `waytrue's roam`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", 
+      {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `roam`,
+        path: `${__dirname}/src/roam`,
+      }
+    },
+  ],
+};
