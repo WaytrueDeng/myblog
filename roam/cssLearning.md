@@ -6,9 +6,57 @@ slug: cssLearning
 --- 
 
 # Selector
+<ul>
+  <li>"nil" for &&</li>
+  <li>" " for descandants(all element nested in  element)</li>
+  <li>">" for child of upper element</li>
+  <li>"~" for parent of right side element </li>
+</ul>
+
+<p>for example
+<code>
+
+p.className stands for all p tags have a className class
+
+/* select all li elements inside a p including recursive nested */
+
+p li {
+  }
+
+/* select all li elements which are directly child of p element */
+
+p > li 
+
+
+/* seletec all p element whose child is li */
+
+p ~ li 
+
+</code>
+</p>
 
 # Color
 
 # Border Padding Margin
+
+<p>remember border -> margin is outside of border, padding is inside border, all of theme has top right down left , rememer the clockwise order
+
+```
+p.three {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}
+```
+</p>
+
+# position 
+
+<ul>
+  <li>relative positon will keep the original place however the absolute positon will release the positon </li>
+  <li>fixed position is the positon relative to the view point </li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
 
 
