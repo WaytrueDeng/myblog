@@ -22,7 +22,6 @@ site {
       <main>
     <h1>{pageTitle}</h1>
         {children}
-    {(!home && <Link to="/">Let's back to home page</Link> )}
       </main>
     </div>
   );
