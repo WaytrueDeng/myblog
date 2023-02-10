@@ -5,8 +5,8 @@ tags: ["IT","JS","Web"]
 slug: gatsbyLearn
 --- 
 
-# graphql variable
-## defination
+## graphql variable
+### defination
 
 ```graphql
 
@@ -22,7 +22,7 @@ what is the ${syntax} => $ in graphql stands for variable
 
 string interplotion not allowed in graphql query => what is string interploting?: evaluating the string return it's true value =>
 
-### final fix 
+#### final fix 
 
 we can directly use the same props name and inject it to graphql by precedding the $ symbol
 
@@ -53,7 +53,7 @@ query  ($queryFor: [String]) {
 
 ```
 
-# useStaticQuery Hook
+## useStaticQuery Hook
 ``` javascript
 const Category = ({queryFor}) => {
   const  {data}  =  useStaticQuery(
@@ -91,4 +91,4 @@ query  ($queryFor: [String]) {
 data is not defined => it seems like useStaticQuery has already return the data obejct so you should not add {} around it to destruct the obj, but when you need use page query instead you need to use {} to destruct the obj
 
 
-# programmatically creat page
+## programmatically creat page

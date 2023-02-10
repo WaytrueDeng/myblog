@@ -19,7 +19,9 @@ module.exports = {
     "gatsby-plugin-mdx",
     {
       resolve: `gatsby-transformer-remark`,
-      options: {},
+      options: {
+        plugins: [`gatsby-remark-autolink-headers`],
+      },
     },
   ],
 };

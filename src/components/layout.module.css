@@ -1,0 +1,13 @@
+.layout a{
+  color: #8be9fd;
+}
+
+body {
+  background-color: #282a36;
+}
+
+.pagetitle  {
+  color: pink;
+  text-align: center;
+  font-size: 2.5vw;
+}

@@ -1,20 +1,20 @@
 .navbar {
   text-align: center;
+
 }
 .navbar ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #282a36;
   overflow: hidden;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(189,147,249,1) 78%, rgba(0,212,255,1) 100%); 
 }
 
 .navbar li {
   display: inline-block; 
   color: #f8f8f2;
   text-align: center;
-  font-size: 30px;
-  font-size: 3.5vw;
+  font-size: max(2vw,10px,1em);
   width: 20%;
 }
 .navbar li:not(:last-child){
@@ -30,5 +30,14 @@
 .navbar li:hover {
   text-decoration: underline;
   background-color: purple;
+  transition-duration: 0.5s;
+
+  font-size: max(2.5vw,30px,2.5em);
 }
 
+.navbar li a:hover {
+  color: cyan;
+  text-decoration: underline;
+  background-color: purple;
+  transition-duration: 0.5s;
+}

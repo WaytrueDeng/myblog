@@ -1,0 +1,19 @@
+.tagSearchWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tagSearchPaper
+{
+  border: 1px pink solid;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .tagSearchWrapper {
+    flex-direction: column;
+  }
+}
+
